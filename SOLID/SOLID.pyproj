@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="InterfaceSegregationPrinciple\ISP.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="LiskovSubstitutionPrinciple\LSP.py">
       <SubType>Code</SubType>
     </Compile>
@@ -34,6 +37,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="LiskovSubstitutionPrinciple\" />
+    <Folder Include="InterfaceSegregationPrinciple\" />
     <Folder Include="OpenCosedPrinciple\" />
     <Folder Include="SingleResponsibilityPrinciple\" />
   </ItemGroup>
