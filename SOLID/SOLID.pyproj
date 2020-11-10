@@ -21,12 +21,20 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="SingleResponsibilityPrinciple\EmployeeProcess.py">
+    <Compile Include="LiskovSubstitutionPrinciple\LSP.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="OpenCosedPrinciple\OCP.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SingleResponsibilityPrinciple\SRP.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="SOLID.py" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="LiskovSubstitutionPrinciple\" />
+    <Folder Include="OpenCosedPrinciple\" />
     <Folder Include="SingleResponsibilityPrinciple\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
