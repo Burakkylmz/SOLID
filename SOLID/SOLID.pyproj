@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DependencyInversionPrinciple\DIP.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="InterfaceSegregationPrinciple\ISP.py">
       <SubType>Code</SubType>
     </Compile>
@@ -38,6 +41,7 @@
   <ItemGroup>
     <Folder Include="LiskovSubstitutionPrinciple\" />
     <Folder Include="InterfaceSegregationPrinciple\" />
+    <Folder Include="DependencyInversionPrinciple\" />
     <Folder Include="OpenCosedPrinciple\" />
     <Folder Include="SingleResponsibilityPrinciple\" />
   </ItemGroup>
