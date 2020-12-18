@@ -1,4 +1,8 @@
-# A class should have one and only one reason to change, meaning that a class should only have one job. For example, let's assume that we have a simple application that will save the personal information of the newly recruited personnel in the system, keep the logs of this transaction and send an information e-mail to the manager when the person is registered in the system. We can carry out these operations in a single class. If we do this in this way, we would be at odds with this principle. To comply with this principle, we need to handle all these processes in separate classes. Each class should have only one responsibility. For example, a class should be used for logging, a class to enroll the employee in the database and a class for the information e-mail.
+# A class should have one and only one reason to change, meaning that a class should only have one job. For example, let's assume that we have a simple application that 
+# will save the personal information of the newly recruited personnel in the system, keep the logs of this transaction and send an information e-mail to the manager when 
+# the person is registered in the system. We can carry out these operations in a single class. If we do this in this way, we would be at odds with this principle. To comply 
+# with this principle, we need to handle all these processes in separate classes. Each class should have only one responsibility. For example, a class should be used for 
+# logging, a class to enroll the employee in the database and a class for the information e-mail.
 
 import pymongo
 
